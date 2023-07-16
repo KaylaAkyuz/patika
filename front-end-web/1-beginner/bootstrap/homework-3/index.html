@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linkedin</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="body">
+    <!-- navbar -->
+    <nav
+      class="bg-white sticky-top border-bottom navbar navbar-expand-lg navbar-light bg-dark navbarbg"
+      style="
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: rgba(229, 224, 216, 0.9);
+      "
+    >
+      <div class="container justify-content-center">
+        <a class="navbar-brand ml-5" href="#">
+          <i
+            class="fab fa-linkedin fa-lg"
+            style="
+              color: #0a66c2;
+              font-size: 2.4rem;
+              width: 2.4rem;
+              height: 2.4rem;
+            "
+          ></i>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="form-inline mr-5 pr-5">
+          <input
+            class="form-control searche"
+            type="search"
+            placeholder="     Search"
+            aria-label="Search"
+          />
+        </form>
+        <div class="collapse navbar-collapse ml-5 pl-5">
+          <ul class="navbar-nav mr-auto ml-4">
+            <li class="nav-item active mr-3">
+              <a class="nav-link" href="#">
+                <div class="d-flex flex-column align-items-center">
+                  <i class="fas fa-home fa-lg" style="color: black"></i>
+                  <div class="menutext" style="color: black">Home</div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item active mr-4">
+              <a class="nav-link" href="#">
+                <div class="d-flex flex-column align-items-center">
+                  <i class="fas fa-user-friends fa-lg"></i>
+                  <div class="menutext" style="white-space: nowrap">
+                    My Network
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item active mr-2">
+              <a class="nav-link" href="#">
+                <div class="d-flex flex-column align-items-center">
+                  <i class="fas fa-briefcase fa-lg"></i>
+                  <div class="menutext">Jobs</div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item active mr-1">
+              <a class="nav-link" href="#">
+                <div class="d-flex flex-column align-items-center">
+                  <i class="fas fa-comment-dots fa-lg"></i>
+                  <div class="menutext">Messaging</div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item active mr-1">
+              <a class="nav-link" href="#">
+                <div class="d-flex flex-column align-items-center">
+                  <i class="fas fa-bell fa-lg"></i>
+                  <div class="menutext">Notifications</div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item dropdown mt-1 mr-3 ml-3">
+              <a
+                class="nav-link"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <div class="d-flex flex-column align-items-center">
+                  <img
+                    src="https://picsum.photos/100/100?5"
+                    style="width: 1.5rem; height: 1.5rem; border-radius: 100%"
+                  />
+                  <div class="menutext" style="margin-top: 0">Me</div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item active border-left">
+              <a class="nav-link ml-4 mr-2" href="#">
+                <div class="d-flex flex-column align-items-center">
+                  <i class="fas fa-th fa-lg"></i>
+                  <div class="menutext">Work</div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">
+                <div class="d-flex flex-column align-items-center">
+                  <i class="fas fa-chalkboard fa-lg"></i>
+                  <div class="menutext" style="white-space: nowrap">
+                    Post a job
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <!-- sol panel -->
+        <div class="col-2 mr-5">
+          <!-- sol panel -->
+          <div class="card" style="width: 14rem">
+            <div
+              class="card-header d-flex justify-content-center"
+              style="
+                background-image: url(https://picsum.photos/300/100);
+                height: 53px;
+              "
+            >
+              <img
+                src="https://picsum.photos/100/100?5"
+                class=""
+                style="
+                  width: 70px;
+                  height: 70px;
+                  border-radius: 100%;
+                  border: white 2px solid;
+                "
+              />
+            </div>
+            <div class="card-body mt-3 d-flex flex-column align-items-center">
+              <p class="card-title header">
+                <a href="#" target="_blank" style="color: #212529"
+                  >Lorem, ipsum.</a
+                >
+              </p>
+              <div style="margin-bottom: 10px; color: #5f5f5f">
+                Software Developer
+              </div>
+              <div class="card-text">
+                <hr />
+                <div>
+                  <span class="view mr-2">Who viewed your profile</span>
+                  <span class="float-right view mt-1" style="color: #0a66c2"
+                    >315</span
+                  >
+                </div>
+                <div>
+                  <span class="view">Views of your post</span>
+                  <span class="float-right view mt-1" style="color: #0a66c2"
+                    >240</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="card-footer bg-white">
+              <i class="fas fa-bookmark"></i>
+              <span class="mb-4">My items</span>
+            </div>
+          </div>
+          <div class="card mt-2" style="width: 14rem">
+            <div
+              class="card-header bg-white"
+              style="margin-bottom: -22px; font-size: 18px; border-bottom: none"
+            >
+              My pages
+            </div>
+            <div class="card-body mt-3">
+              <div class="card-title">
+                <img
+                  src="https://picsum.photos/70/70"
+                  style="width: 32px; height: 32px"
+                />
+                <div
+                  style="
+                    font-size: 15px;
+                    font-weight: bold;
+                    margin-top: -35px;
+                    margin-left: 37px;
+                  "
+                >
+                  Lorem, ipsum.
+                </div>
+                <div
+                  class=""
+                  style="
+                    font-size: 13px;
+                    font-weight: bold;
+                    color: gray;
+                    margin-left: 38px;
+                  "
+                >
+                  Page notifications
+                  <span
+                    class="position-absolute"
+                    style="color: #0a66c2; right: 1rem"
+                    >21</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-2 sticky-top" style="width: 14rem; top: 4rem">
+            <div class="card-header bg-white border-0" style="font-size: 12px">
+              Recent
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                <div>
+                  <i
+                    class="fas fa-hashtag"
+                    style="font-size: 13px; font-weight: bold"
+                  ></i>
+                  <span
+                    class="ml-2 font-weight-bold"
+                    style="font-size: 13px; color: #5f5f5f"
+                    >Lorem</span
+                  >
+                </div>
+                <div>
+                  <i
+                    class="fas fa-hashtag"
+                    style="font-size: 13px; font-weight: bold"
+                  ></i>
+                  <span
+                    class="ml-2 font-weight-bold"
+                    style="font-size: 13px; color: #5f5f5f"
+                    >ipsum</span
+                  >
+                </div>
+                <div>
+                  <i
+                    class="fas fa-hashtag"
+                    style="font-size: 13px; font-weight: bold"
+                  ></i>
+                  <span
+                    class="ml-2 font-weight-bold"
+                    style="font-size: 13px; color: #5f5f5f"
+                    >dolor</span
+                  >
+                </div>
+                <div>
+                  <i
+                    class="fas fa-hashtag"
+                    style="font-size: 13px; font-weight: bold"
+                  ></i>
+                  <span
+                    class="ml-2 font-weight-bold"
+                    style="font-size: 13px; color: #5f5f5f"
+                    >sit</span
+                  >
+                </div>
+                <div>
+                  <i
+                    class="fas fa-hashtag"
+                    style="font-size: 13px; font-weight: bold"
+                  ></i>
+                  <span
+                    class="ml-2 font-weight-bold"
+                    style="font-size: 13px; color: #5f5f5f"
+                    >amet</span
+                  >
+                </div>
+                <div class="mt-3 categories">Groups</div>
+                <span class="mt-2 categories">Events</span>
+                <span
+                  class="float-right mb-5"
+                  style="font-size: 23px; color: #5f5f5f"
+                  >+</span
+                >
+                <div class="mt-3 mb-1 categories">Followed Hashtags</div>
+                <div>
+                  <i
+                    class="fas fa-hashtag"
+                    style="font-size: 13px; font-weight: bold"
+                  ></i>
+                  <span
+                    class="ml-2 font-weight-bold"
+                    style="font-size: 13px; color: #5f5f5f"
+                    >consectetur</span
+                  >
+                </div>
+                <div>
+                  <i
+                    class="fas fa-hashtag"
+                    style="font-size: 13px; font-weight: bold"
+                  ></i>
+                  <span
+                    class="ml-2 font-weight-bold"
+                    style="font-size: 13px; color: #5f5f5f"
+                    >adipisicing.</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="card-footer bg-white">Discover more</div>
+          </div>
+        </div>
+
+        <!-- orta panel -->
+        <div class="col-6 ml-1" style="">
+          <div class="card">
+            <div class="card-body">
+              <input
+                type="text"
+                class="form-control content mb-3"
+                placeholder="         Start a post"
+              />
+              <div class="d-flex justify-content-between">
+                <span>
+                  <button class="mediatext btn btn-light btn-outline-none">
+                    <svg
+                      style="fill: #70b5f9"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      data-supported-dps="24x24"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z"
+                      ></path>
+                    </svg>
+                    <span class="ml-1 mediatext">Photo</span>
+                  </button>
+                </span>
+                <span>
+                  <button class="mediatext btn btn-light btn-outline-none">
+                    <svg
+                      style="fill: #7fc15e"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      data-supported-dps="24x24"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z"
+                      ></path>
+                    </svg>
+                    <span class="ml-1 mediatext">Video</span>
+                  </button>
+                </span>
+                <span>
+                  <button class="mediatext btn btn-light btn-outline-none">
+                    <svg
+                      style="fill: #e7a33e"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      data-supported-dps="24x24"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.21h1a.89.89 0 001 1h.1a.94.94 0 001-.88z"
+                      ></path>
+                    </svg>
+                    <span class="ml-1 mediatext">Event</span>
+                  </button>
+                </span>
+                <span>
+                  <button class="mediatext btn btn-light btn-outline-none">
+                    <svg
+                      style="fill: #f5987e"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      data-supported-dps="24x24"
+                      fill=""
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z"
+                      ></path>
+                    </svg>
+                    <span class="ml-1 mediatext">Write article</span>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <hr />
+          </div>
+          <div class="card">
+            <div class="card-header bg-white" style="border-bottom: none">
+              <div class="d-flex align-items-start">
+                <img
+                  src="https://picsum.photos/50/50"
+                  class="align-self-end postphoto"
+                />
+                <div
+                  class="d-inline-flex flex-column ml-2"
+                  style="line-height: 1"
+                >
+                  <span class="posttext"
+                    ><a href="#" target="_blank" style="color: #212529"
+                      >Lorem, ipsum.</a
+                    ></span
+                  >
+                  <span
+                    class=""
+                    style="
+                      margin-left: 8px;
+                      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                        'Helvetica Neue', sans-serif;
+                      font-size: 13px;
+                      color: #474747;
+                    "
+                    >Lorem, ipsum.</span
+                  >
+                  <span
+                    class=""
+                    style="
+                      margin-left: 8px;
+                      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                        'Helvetica Neue', sans-serif;
+                      font-size: 13px;
+                      color: #474747;
+                    "
+                    >5h <i class="fas fa-globe-americas fa-sm"></i
+                  ></span>
+                </div>
+                <span class="ml-auto">
+                  <i class="fas fa-ellipsis-h fa-md"></i>
+                </span>
+              </div>
+            </div>
+            <div>
+              <p
+                class="card-text ml-3"
+                style="
+                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                    'Helvetica Neue', sans-serif;
+                  font-size: 15px;
+                  color: black;
+                "
+              >
+                Lorem ipsum dolor sit amet.
+              </p>
+              <div>
+                <img
+                  src="https://picsum.photos/400/300"
+                  class="card-img-top mb-1"
+                  alt="..."
+                />
+              </div>
+              <span class="ml-3"
+                ><svg
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="like-consumption-small"
+                  data-supported-dps="16x16"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <rect width="16" height="16" rx="8" />
+                    <circle fill="#1485BD" cx="8" cy="8" r="7" />
+                    <path
+                      d="M11.93 7.25h-.55c-.05 0-.15-.19-.4-.46-.37-.4-.78-.91-1.07-1.19a7.18 7.18 0 01-1.73-2.24c-.24-.51-.26-.74-.75-.74a.77.77 0 00-.67.81c0 .14.07.63.1.8a7.62 7.62 0 001 2.2h.54-4.28a.87.87 0 00-.88.94.91.91 0 00.93.85h.16a.78.78 0 00-.76.8.81.81 0 00.74.8.8.8 0 00.33 1.42.79.79 0 00-.09.55.86.86 0 00.85.63h2.29c.3 0 .599-.038.89-.11l1.42-.42h1.9c1.02-.04 1.29-4.64.03-4.64z"
+                      fill="#E6F7FF"
+                    />
+                    <path
+                      d="M7.43 6.43H4.11a.88.88 0 00-.88 1 .91.91 0 00.93.84h.16a.78.78 0 00-.76.8.83.83 0 00.74.81.81.81 0 00-.31.63.82.82 0 00.65.8.81.81 0 00-.09.56.86.86 0 00.85.62h2.29c.3 0 .599-.038.89-.11l1.42-.47h1.9c1 0 1.27-4.64 0-4.64a5 5 0 01-.55 0c-.05 0-.15-.19-.4-.46h0c-.37-.4-.78-.91-1.07-1.19a7.18 7.18 0 01-1.7-2.25 2 2 0 00-.32-.52.83.83 0 00-1.16.09 1.39 1.39 0 00-.25.38 1.49 1.49 0 00-.09.3 2.38 2.38 0 00.07.84c.064.288.155.569.27.84.188.353.41.688.66 1a.18.18 0 01.07.08"
+                      stroke="#004B7C"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </span>
+              <span class=""
+                ><svg
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  id="praise-consumption-small"
+                  data-supported-dps="16x16"
+                >
+                  <defs>
+                    <rect
+                      id="reactions-praise-consumption-small-a"
+                      x="1"
+                      y="1"
+                      width="14"
+                      height="14"
+                      rx="7"
+                    />
+                  </defs>
+                  <g fill="none" fill-rule="evenodd">
+                    <rect width="16" height="16" rx="8" />
+                    <mask id="reactions-praise-consumption-small-b" fill="#fff">
+                      <use xlink:href="#reactions-praise-consumption-small-a" />
+                    </mask>
+                    <use
+                      fill="#D8D8D8"
+                      fill-rule="nonzero"
+                      xlink:href="#reactions-praise-consumption-small-a"
+                    />
+                    <g mask="url(#reactions-praise-consumption-small-b)">
+                      <circle fill="#6DAE4F" cx="8" cy="8" r="7" />
+                      <path
+                        d="M8 1a7 7 0 110 14A7 7 0 018 1zm0-1a8 8 0 100 16A8 8 0 008 0z"
+                        fill="#FFF"
+                        fill-rule="nonzero"
+                      />
+                      <path
+                        d="M12.133 9.224a9 9 0 00-.36-2.32 4.24 4.24 0 01-1.33-1.86c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.006.24.026.481.06.72.137.655.33 1.298.58 1.92l-4.5-3.42a.75.75 0 00-1.11.07.72.72 0 00.27 1l2.25 1.7.59.56-3.57-2.71a.71.71 0 10-.85 1.12l2.25 1.7 1.35 1-2.92-2.19a.75.75 0 00-1.11.07c-.31.4-.06.81.26 1.06l2.25 1.69 1.13.85-2.25-1.7a.74.74 0 00-1.09 0 .75.75 0 00.24 1.09l4.1 3c.594.447 2.07.833 2.72.268"
+                        stroke="#165209"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M12.613 9.904l-.42-.37a6.91 6.91 0 00-.51-2.14 5.72 5.72 0 01-1.21-2.38c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.006.24.026.481.06.72.115.631.3 1.248.55 1.84l-.19-.11-4.31-3.31a.75.75 0 00-1.11.07.73.73 0 00.27 1.06l2.2 1.69.64.51-3.57-2.71a.75.75 0 00-1.11.06.74.74 0 00.26 1.06l2.25 1.7 1.35 1-2.92-2.18a.74.74 0 00-1.11.06.73.73 0 00.26 1.06l2.25 1.69 1.13.85-2.25-1.69a.72.72 0 00-1.09 0 .74.74 0 00.24 1.08l4.1 3.11a2.72 2.72 0 002.08.51c.538.312 1.008.312 1.41 0 .602-.469.404-.511.85-1.13a11.57 11.57 0 001.29-2.12z"
+                        fill="#DCF0CB"
+                      />
+                      <path
+                        d="M12.133 9.224a9 9 0 00-.36-2.32 4.24 4.24 0 01-1.33-1.86c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.006.24.026.481.06.72.137.655.33 1.298.58 1.92l-4.5-3.42a.75.75 0 00-1.11.07.72.72 0 00.27 1l2.25 1.7.59.56-3.57-2.71a.71.71 0 10-.85 1.12l2.25 1.7 1.35 1-2.92-2.19a.75.75 0 00-1.11.07c-.31.4-.06.81.26 1.06l2.25 1.69 1.13.85-2.25-1.7a.74.74 0 00-1.09 0 .75.75 0 00.24 1.09l4.1 3c.594.447 1.986.742 2.72.62"
+                        stroke="#165209"
+                        stroke-width=".5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M14.767 11.388a2.2 2.2 0 01-.46-.75c0-.22-.06-.43-.1-.65a2.39 2.39 0 00-.36-1.08 5.91 5.91 0 01-1.21-2.38c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.007.24.027.48.06.72.18.92.37 1.68.39 1.73l-4.29-3.21a.74.74 0 00-1.11.07.72.72 0 00.26 1l2.25 1.7.68.56-3.6-2.71a.74.74 0 00-1.11.06.73.73 0 00.26 1.06l2.25 1.7 1.35 1-2.93-2.19a.74.74 0 00-1.1.08c-.31.4-.07.81.26 1.06l2.25 1.68 1.12.85-2.29-1.7a.73.73 0 00-1 .04.74.74 0 00.2 1.07l4 3c.334.25.72.421 1.13.5l.58.09c.305.045.6.143.87.29a.83.83 0 00.6.05 3.82 3.82 0 001.77-1.29 3.71 3.71 0 00.7-2 .85.85 0 00-.03-.42h0z"
+                        stroke="#165209"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M14.807 11.338l-.45-.34a6.64 6.64 0 00-.51-2.14 5.85 5.85 0 01-1.21-2.38c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.007.24.027.48.06.72.18.93.37 1.69.39 1.73l-4.29-3.21a.75.75 0 00-1.11.07c-.31.41-.06.81.26 1.06l2.25 1.69.68.56-3.6-2.76a.75.75 0 00-1.11.07c-.31.4-.06.81.26 1.06l2.25 1.69 1.35 1-2.93-2.19a.74.74 0 00-1.1.07.72.72 0 00.26 1.06l2.25 1.69 1.12.85-2.29-1.69a.71.71 0 00-1 .04.73.73 0 00.2 1.11l4 3a4.2 4.2 0 002 .59 6 6 0 00.8.41 3.22 3.22 0 002-1.26 4.81 4.81 0 00.86-2.57z"
+                        fill="#DDF6D1"
+                      />
+                      <path
+                        d="M5.137 10.318c.57.43 4.43 3.43 4.89 3.59.476.17.995.17 1.47 0a1.48 1.48 0 00.47-.31"
+                        opacity=".5"
+                      />
+                      <path
+                        d="M14.767 11.388a2.2 2.2 0 01-.46-.75c0-.22-.06-.43-.1-.65a2.39 2.39 0 00-.36-1.08 5.91 5.91 0 01-1.21-2.38c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.007.24.027.48.06.72.18.92.37 1.68.39 1.73l-4.29-3.21a.74.74 0 00-1.11.07.72.72 0 00.26 1l2.25 1.7.68.56-3.6-2.71a.74.74 0 00-1.11.06.73.73 0 00.26 1.06l2.25 1.7 1.35 1-2.93-2.19a.74.74 0 00-1.1.08c-.31.4-.07.81.26 1.06l2.25 1.68 1.12.85-2.29-1.7a.73.73 0 00-1 .04.74.74 0 00.2 1.07l4 3c.334.25.72.421 1.13.5l.58.09c.305.045.6.143.87.29a.83.83 0 00.6.05 3.82 3.82 0 001.77-1.29 3.71 3.71 0 00.7-2 .85.85 0 00-.03-.42h0z"
+                        stroke="#165209"
+                        stroke-width=".5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8.829 2.818l-.73.92M5.494 1.625l.065 1.193M7.538 1.633l-.649 1.56"
+                        stroke="#165209"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </span>
+              <span
+                class=""
+                style="
+                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                    'Helvetica Neue', sans-serif;
+                  font-size: 13px;
+                  color: #474747;
+                "
+                ><svg
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="empathy-consumption-small"
+                  data-supported-dps="16x16"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <rect width="16" height="16" rx="8" />
+                    <circle fill="#DF704D" cx="8" cy="8" r="7" />
+                    <path
+                      d="M7.71 5A2.62 2.62 0 004 5a2.65 2.65 0 000 3.75l4 4 4-4A2.65 2.65 0 0012 5a2.59 2.59 0 00-1.85-.77h0A2.57 2.57 0 008.3 5l-.3.3-.29-.3z"
+                      stroke="#77280C"
+                      fill="#FFF3F0"
+                    />
+                    <path
+                      d="M11.43 5.18a2 2 0 01.53.63c.9 1.67-.6 2.72-1.54 3.67-.6.61-1.22 1.22-1.85 1.8"
+                      opacity=".6"
+                    />
+                    <path
+                      d="M5.79 4.81a2.16 2.16 0 00-.79.11 1.77 1.77 0 00-1 .82A2.54 2.54 0 003.77 7a.28.28 0 000 .09"
+                      opacity=".4"
+                    />
+                    <path
+                      d="M7.71 5A2.6 2.6 0 004 5a2.65 2.65 0 000 3.7l4 4 4-4A2.65 2.65 0 0012 5a2.6 2.6 0 00-1.85-.78h0A2.58 2.58 0 008.3 5l-.3.25L7.71 5z"
+                      stroke="#77280C"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+                120</span
+              >
+              <div class="card-footer bg-white mt-1">
+                <span>
+                  <button class="ref btn btn-light">
+                    <i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem"
+                      ><span class="ml-2 mediatext">Like</span></i
+                    >
+                  </button>
+                </span>
+                <span>
+                  <button class="ref btn btn-light">
+                    <i class="far fa-comment fa-md" style="font-size: 1.2rem"
+                      ><span class="ml-2 mediatext">Comment</span></i
+                    >
+                  </button>
+                </span>
+                <span>
+                  <button class="ref btn btn-light">
+                    <i class="fas fa-share fa-md" style="font-size: 1.2rem"
+                      ><span class="ml-2 mediatext">Share</span></i
+                    >
+                  </button>
+                </span>
+                <span>
+                  <button class="ref btn btn-light">
+                    <i
+                      class="fas fa-paper-plane fa-md"
+                      style="font-size: 1.2rem"
+                      ><span class="ml-2 mediatext">Send</span></i
+                    >
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-2">
+            <div class="card-header bg-white" style="border-bottom: none">
+              <div class="d-flex align-items-start">
+                <img
+                  src="https://picsum.photos/50/50?2"
+                  class="align-self-end postphoto"
+                />
+                <div
+                  class="d-inline-flex flex-column ml-2"
+                  style="line-height: 1"
+                >
+                  <span class="posttext"
+                    ><a href="#" target="_blank" style="color: #212529"
+                      >Lorem, ipsum.</a
+                    ></span
+                  >
+                  <span
+                    class=""
+                    style="
+                      margin-left: 8px;
+                      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                        'Helvetica Neue', sans-serif;
+                      font-size: 13px;
+                      color: #474747;
+                    "
+                    >Lorem, ipsum.</span
+                  >
+                  <span
+                    class=""
+                    style="
+                      margin-left: 8px;
+                      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                        'Helvetica Neue', sans-serif;
+                      font-size: 13px;
+                      color: #474747;
+                    "
+                    >6h <i class="fas fa-globe-americas fa-sm"></i
+                  ></span>
+                </div>
+                <span class="ml-auto">
+                  <i class="fas fa-ellipsis-h fa-md"></i>
+                </span>
+              </div>
+            </div>
+            <div>
+              <p
+                class="card-text ml-3"
+                style="
+                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                    'Helvetica Neue', sans-serif;
+                  font-size: 15px;
+                  color: black;
+                "
+              >
+                Lorem ipsum dolor sit amet.
+              </p>
+              <div>
+                <img
+                  src="https://picsum.photos/400/300?2"
+                  class="card-img-top mb-1"
+                  alt="..."
+                />
+              </div>
+              <span class="ml-3"
+                ><svg
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="like-consumption-small"
+                  data-supported-dps="16x16"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <rect width="16" height="16" rx="8" />
+                    <circle fill="#1485BD" cx="8" cy="8" r="7" />
+                    <path
+                      d="M11.93 7.25h-.55c-.05 0-.15-.19-.4-.46-.37-.4-.78-.91-1.07-1.19a7.18 7.18 0 01-1.73-2.24c-.24-.51-.26-.74-.75-.74a.77.77 0 00-.67.81c0 .14.07.63.1.8a7.62 7.62 0 001 2.2h.54-4.28a.87.87 0 00-.88.94.91.91 0 00.93.85h.16a.78.78 0 00-.76.8.81.81 0 00.74.8.8.8 0 00.33 1.42.79.79 0 00-.09.55.86.86 0 00.85.63h2.29c.3 0 .599-.038.89-.11l1.42-.42h1.9c1.02-.04 1.29-4.64.03-4.64z"
+                      fill="#E6F7FF"
+                    />
+                    <path
+                      d="M7.43 6.43H4.11a.88.88 0 00-.88 1 .91.91 0 00.93.84h.16a.78.78 0 00-.76.8.83.83 0 00.74.81.81.81 0 00-.31.63.82.82 0 00.65.8.81.81 0 00-.09.56.86.86 0 00.85.62h2.29c.3 0 .599-.038.89-.11l1.42-.47h1.9c1 0 1.27-4.64 0-4.64a5 5 0 01-.55 0c-.05 0-.15-.19-.4-.46h0c-.37-.4-.78-.91-1.07-1.19a7.18 7.18 0 01-1.7-2.25 2 2 0 00-.32-.52.83.83 0 00-1.16.09 1.39 1.39 0 00-.25.38 1.49 1.49 0 00-.09.3 2.38 2.38 0 00.07.84c.064.288.155.569.27.84.188.353.41.688.66 1a.18.18 0 01.07.08"
+                      stroke="#004B7C"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </span>
+              <span class=""
+                ><svg
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  id="praise-consumption-small"
+                  data-supported-dps="16x16"
+                >
+                  <defs>
+                    <rect
+                      id="reactions-praise-consumption-small-a"
+                      x="1"
+                      y="1"
+                      width="14"
+                      height="14"
+                      rx="7"
+                    />
+                  </defs>
+                  <g fill="none" fill-rule="evenodd">
+                    <rect width="16" height="16" rx="8" />
+                    <mask id="reactions-praise-consumption-small-b" fill="#fff">
+                      <use xlink:href="#reactions-praise-consumption-small-a" />
+                    </mask>
+                    <use
+                      fill="#D8D8D8"
+                      fill-rule="nonzero"
+                      xlink:href="#reactions-praise-consumption-small-a"
+                    />
+                    <g mask="url(#reactions-praise-consumption-small-b)">
+                      <circle fill="#6DAE4F" cx="8" cy="8" r="7" />
+                      <path
+                        d="M8 1a7 7 0 110 14A7 7 0 018 1zm0-1a8 8 0 100 16A8 8 0 008 0z"
+                        fill="#FFF"
+                        fill-rule="nonzero"
+                      />
+                      <path
+                        d="M12.133 9.224a9 9 0 00-.36-2.32 4.24 4.24 0 01-1.33-1.86c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.006.24.026.481.06.72.137.655.33 1.298.58 1.92l-4.5-3.42a.75.75 0 00-1.11.07.72.72 0 00.27 1l2.25 1.7.59.56-3.57-2.71a.71.71 0 10-.85 1.12l2.25 1.7 1.35 1-2.92-2.19a.75.75 0 00-1.11.07c-.31.4-.06.81.26 1.06l2.25 1.69 1.13.85-2.25-1.7a.74.74 0 00-1.09 0 .75.75 0 00.24 1.09l4.1 3c.594.447 2.07.833 2.72.268"
+                        stroke="#165209"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M12.613 9.904l-.42-.37a6.91 6.91 0 00-.51-2.14 5.72 5.72 0 01-1.21-2.38c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.006.24.026.481.06.72.115.631.3 1.248.55 1.84l-.19-.11-4.31-3.31a.75.75 0 00-1.11.07.73.73 0 00.27 1.06l2.2 1.69.64.51-3.57-2.71a.75.75 0 00-1.11.06.74.74 0 00.26 1.06l2.25 1.7 1.35 1-2.92-2.18a.74.74 0 00-1.11.06.73.73 0 00.26 1.06l2.25 1.69 1.13.85-2.25-1.69a.72.72 0 00-1.09 0 .74.74 0 00.24 1.08l4.1 3.11a2.72 2.72 0 002.08.51c.538.312 1.008.312 1.41 0 .602-.469.404-.511.85-1.13a11.57 11.57 0 001.29-2.12z"
+                        fill="#DCF0CB"
+                      />
+                      <path
+                        d="M12.133 9.224a9 9 0 00-.36-2.32 4.24 4.24 0 01-1.33-1.86c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.006.24.026.481.06.72.137.655.33 1.298.58 1.92l-4.5-3.42a.75.75 0 00-1.11.07.72.72 0 00.27 1l2.25 1.7.59.56-3.57-2.71a.71.71 0 10-.85 1.12l2.25 1.7 1.35 1-2.92-2.19a.75.75 0 00-1.11.07c-.31.4-.06.81.26 1.06l2.25 1.69 1.13.85-2.25-1.7a.74.74 0 00-1.09 0 .75.75 0 00.24 1.09l4.1 3c.594.447 1.986.742 2.72.62"
+                        stroke="#165209"
+                        stroke-width=".5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M14.767 11.388a2.2 2.2 0 01-.46-.75c0-.22-.06-.43-.1-.65a2.39 2.39 0 00-.36-1.08 5.91 5.91 0 01-1.21-2.38c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.007.24.027.48.06.72.18.92.37 1.68.39 1.73l-4.29-3.21a.74.74 0 00-1.11.07.72.72 0 00.26 1l2.25 1.7.68.56-3.6-2.71a.74.74 0 00-1.11.06.73.73 0 00.26 1.06l2.25 1.7 1.35 1-2.93-2.19a.74.74 0 00-1.1.08c-.31.4-.07.81.26 1.06l2.25 1.68 1.12.85-2.29-1.7a.73.73 0 00-1 .04.74.74 0 00.2 1.07l4 3c.334.25.72.421 1.13.5l.58.09c.305.045.6.143.87.29a.83.83 0 00.6.05 3.82 3.82 0 001.77-1.29 3.71 3.71 0 00.7-2 .85.85 0 00-.03-.42h0z"
+                        stroke="#165209"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M14.807 11.338l-.45-.34a6.64 6.64 0 00-.51-2.14 5.85 5.85 0 01-1.21-2.38c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.007.24.027.48.06.72.18.93.37 1.69.39 1.73l-4.29-3.21a.75.75 0 00-1.11.07c-.31.41-.06.81.26 1.06l2.25 1.69.68.56-3.6-2.76a.75.75 0 00-1.11.07c-.31.4-.06.81.26 1.06l2.25 1.69 1.35 1-2.93-2.19a.74.74 0 00-1.1.07.72.72 0 00.26 1.06l2.25 1.69 1.12.85-2.29-1.69a.71.71 0 00-1 .04.73.73 0 00.2 1.11l4 3a4.2 4.2 0 002 .59 6 6 0 00.8.41 3.22 3.22 0 002-1.26 4.81 4.81 0 00.86-2.57z"
+                        fill="#DDF6D1"
+                      />
+                      <path
+                        d="M5.137 10.318c.57.43 4.43 3.43 4.89 3.59.476.17.995.17 1.47 0a1.48 1.48 0 00.47-.31"
+                        opacity=".5"
+                      />
+                      <path
+                        d="M14.767 11.388a2.2 2.2 0 01-.46-.75c0-.22-.06-.43-.1-.65a2.39 2.39 0 00-.36-1.08 5.91 5.91 0 01-1.21-2.38c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.007.24.027.48.06.72.18.92.37 1.68.39 1.73l-4.29-3.21a.74.74 0 00-1.11.07.72.72 0 00.26 1l2.25 1.7.68.56-3.6-2.71a.74.74 0 00-1.11.06.73.73 0 00.26 1.06l2.25 1.7 1.35 1-2.93-2.19a.74.74 0 00-1.1.08c-.31.4-.07.81.26 1.06l2.25 1.68 1.12.85-2.29-1.7a.73.73 0 00-1 .04.74.74 0 00.2 1.07l4 3c.334.25.72.421 1.13.5l.58.09c.305.045.6.143.87.29a.83.83 0 00.6.05 3.82 3.82 0 001.77-1.29 3.71 3.71 0 00.7-2 .85.85 0 00-.03-.42h0z"
+                        stroke="#165209"
+                        stroke-width=".5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8.829 2.818l-.73.92M5.494 1.625l.065 1.193M7.538 1.633l-.649 1.56"
+                        stroke="#165209"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </span>
+              <span
+                class=""
+                style="
+                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                    'Helvetica Neue', sans-serif;
+                  font-size: 13px;
+                  color: #474747;
+                "
+                ><svg
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="empathy-consumption-small"
+                  data-supported-dps="16x16"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <rect width="16" height="16" rx="8" />
+                    <circle fill="#DF704D" cx="8" cy="8" r="7" />
+                    <path
+                      d="M7.71 5A2.62 2.62 0 004 5a2.65 2.65 0 000 3.75l4 4 4-4A2.65 2.65 0 0012 5a2.59 2.59 0 00-1.85-.77h0A2.57 2.57 0 008.3 5l-.3.3-.29-.3z"
+                      stroke="#77280C"
+                      fill="#FFF3F0"
+                    />
+                    <path
+                      d="M11.43 5.18a2 2 0 01.53.63c.9 1.67-.6 2.72-1.54 3.67-.6.61-1.22 1.22-1.85 1.8"
+                      opacity=".6"
+                    />
+                    <path
+                      d="M5.79 4.81a2.16 2.16 0 00-.79.11 1.77 1.77 0 00-1 .82A2.54 2.54 0 003.77 7a.28.28 0 000 .09"
+                      opacity=".4"
+                    />
+                    <path
+                      d="M7.71 5A2.6 2.6 0 004 5a2.65 2.65 0 000 3.7l4 4 4-4A2.65 2.65 0 0012 5a2.6 2.6 0 00-1.85-.78h0A2.58 2.58 0 008.3 5l-.3.25L7.71 5z"
+                      stroke="#77280C"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+                80</span
+              >
+              <div class="card-footer bg-white mt-1">
+                <span>
+                  <button class="ref btn btn-light">
+                    <i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem"
+                      ><span class="ml-2 mediatext">Like</span></i
+                    >
+                  </button>
+                </span>
+                <span>
+                  <button class="ref btn btn-light">
+                    <i class="far fa-comment fa-md" style="font-size: 1.2rem"
+                      ><span class="ml-2 mediatext">Comment</span></i
+                    >
+                  </button>
+                </span>
+                <span>
+                  <button class="ref btn btn-light">
+                    <i class="fas fa-share fa-md" style="font-size: 1.2rem"
+                      ><span class="ml-2 mediatext">Share</span></i
+                    >
+                  </button>
+                </span>
+                <span>
+                  <button class="ref btn btn-light">
+                    <i
+                      class="fas fa-paper-plane fa-md"
+                      style="font-size: 1.2rem"
+                      ><span class="ml-2 mediatext">Send</span></i
+                    >
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-2">
+            <div class="card-header bg-white" style="border-bottom: none">
+              <div class="d-flex align-items-start">
+                <img
+                  src="https://picsum.photos/50/50?3"
+                  class="align-self-end postphoto"
+                />
+                <div
+                  class="d-inline-flex flex-column ml-2"
+                  style="line-height: 1"
+                >
+                  <span class="posttext"
+                    ><a href="#" target="_blank" style="color: #212529"
+                      >Lorem, ipsum.</a
+                    ></span
+                  >
+                  <span
+                    class=""
+                    style="
+                      margin-left: 8px;
+                      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                        'Helvetica Neue', sans-serif;
+                      font-size: 13px;
+                      color: #474747;
+                    "
+                    >Lorem, ipsum.</span
+                  >
+                  <span
+                    class=""
+                    style="
+                      margin-left: 8px;
+                      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                        'Helvetica Neue', sans-serif;
+                      font-size: 13px;
+                      color: #474747;
+                    "
+                    >7h <i class="fas fa-globe-americas fa-sm"></i
+                  ></span>
+                </div>
+                <span class="ml-auto">
+                  <i class="fas fa-ellipsis-h fa-md"></i>
+                </span>
+              </div>
+            </div>
+            <div>
+              <p
+                class="card-text ml-3"
+                style="
+                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                    'Helvetica Neue', sans-serif;
+                  font-size: 15px;
+                  color: black;
+                "
+              >
+                Lorem ipsum dolor sit amet.
+              </p>
+              <div>
+                <img
+                  src="https://picsum.photos/400/300?3"
+                  class="card-img-top mb-1"
+                  alt="..."
+                />
+              </div>
+              <span class="ml-3"
+                ><svg
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="like-consumption-small"
+                  data-supported-dps="16x16"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <rect width="16" height="16" rx="8" />
+                    <circle fill="#1485BD" cx="8" cy="8" r="7" />
+                    <path
+                      d="M11.93 7.25h-.55c-.05 0-.15-.19-.4-.46-.37-.4-.78-.91-1.07-1.19a7.18 7.18 0 01-1.73-2.24c-.24-.51-.26-.74-.75-.74a.77.77 0 00-.67.81c0 .14.07.63.1.8a7.62 7.62 0 001 2.2h.54-4.28a.87.87 0 00-.88.94.91.91 0 00.93.85h.16a.78.78 0 00-.76.8.81.81 0 00.74.8.8.8 0 00.33 1.42.79.79 0 00-.09.55.86.86 0 00.85.63h2.29c.3 0 .599-.038.89-.11l1.42-.42h1.9c1.02-.04 1.29-4.64.03-4.64z"
+                      fill="#E6F7FF"
+                    />
+                    <path
+                      d="M7.43 6.43H4.11a.88.88 0 00-.88 1 .91.91 0 00.93.84h.16a.78.78 0 00-.76.8.83.83 0 00.74.81.81.81 0 00-.31.63.82.82 0 00.65.8.81.81 0 00-.09.56.86.86 0 00.85.62h2.29c.3 0 .599-.038.89-.11l1.42-.47h1.9c1 0 1.27-4.64 0-4.64a5 5 0 01-.55 0c-.05 0-.15-.19-.4-.46h0c-.37-.4-.78-.91-1.07-1.19a7.18 7.18 0 01-1.7-2.25 2 2 0 00-.32-.52.83.83 0 00-1.16.09 1.39 1.39 0 00-.25.38 1.49 1.49 0 00-.09.3 2.38 2.38 0 00.07.84c.064.288.155.569.27.84.188.353.41.688.66 1a.18.18 0 01.07.08"
+                      stroke="#004B7C"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </span>
+              <span class=""
+                ><svg
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  id="praise-consumption-small"
+                  data-supported-dps="16x16"
+                >
+                  <defs>
+                    <rect
+                      id="reactions-praise-consumption-small-a"
+                      x="1"
+                      y="1"
+                      width="14"
+                      height="14"
+                      rx="7"
+                    />
+                  </defs>
+                  <g fill="none" fill-rule="evenodd">
+                    <rect width="16" height="16" rx="8" />
+                    <mask id="reactions-praise-consumption-small-b" fill="#fff">
+                      <use xlink:href="#reactions-praise-consumption-small-a" />
+                    </mask>
+                    <use
+                      fill="#D8D8D8"
+                      fill-rule="nonzero"
+                      xlink:href="#reactions-praise-consumption-small-a"
+                    />
+                    <g mask="url(#reactions-praise-consumption-small-b)">
+                      <circle fill="#6DAE4F" cx="8" cy="8" r="7" />
+                      <path
+                        d="M8 1a7 7 0 110 14A7 7 0 018 1zm0-1a8 8 0 100 16A8 8 0 008 0z"
+                        fill="#FFF"
+                        fill-rule="nonzero"
+                      />
+                      <path
+                        d="M12.133 9.224a9 9 0 00-.36-2.32 4.24 4.24 0 01-1.33-1.86c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.006.24.026.481.06.72.137.655.33 1.298.58 1.92l-4.5-3.42a.75.75 0 00-1.11.07.72.72 0 00.27 1l2.25 1.7.59.56-3.57-2.71a.71.71 0 10-.85 1.12l2.25 1.7 1.35 1-2.92-2.19a.75.75 0 00-1.11.07c-.31.4-.06.81.26 1.06l2.25 1.69 1.13.85-2.25-1.7a.74.74 0 00-1.09 0 .75.75 0 00.24 1.09l4.1 3c.594.447 2.07.833 2.72.268"
+                        stroke="#165209"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M12.613 9.904l-.42-.37a6.91 6.91 0 00-.51-2.14 5.72 5.72 0 01-1.21-2.38c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.006.24.026.481.06.72.115.631.3 1.248.55 1.84l-.19-.11-4.31-3.31a.75.75 0 00-1.11.07.73.73 0 00.27 1.06l2.2 1.69.64.51-3.57-2.71a.75.75 0 00-1.11.06.74.74 0 00.26 1.06l2.25 1.7 1.35 1-2.92-2.18a.74.74 0 00-1.11.06.73.73 0 00.26 1.06l2.25 1.69 1.13.85-2.25-1.69a.72.72 0 00-1.09 0 .74.74 0 00.24 1.08l4.1 3.11a2.72 2.72 0 002.08.51c.538.312 1.008.312 1.41 0 .602-.469.404-.511.85-1.13a11.57 11.57 0 001.29-2.12z"
+                        fill="#DCF0CB"
+                      />
+                      <path
+                        d="M12.133 9.224a9 9 0 00-.36-2.32 4.24 4.24 0 01-1.33-1.86c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.006.24.026.481.06.72.137.655.33 1.298.58 1.92l-4.5-3.42a.75.75 0 00-1.11.07.72.72 0 00.27 1l2.25 1.7.59.56-3.57-2.71a.71.71 0 10-.85 1.12l2.25 1.7 1.35 1-2.92-2.19a.75.75 0 00-1.11.07c-.31.4-.06.81.26 1.06l2.25 1.69 1.13.85-2.25-1.7a.74.74 0 00-1.09 0 .75.75 0 00.24 1.09l4.1 3c.594.447 1.986.742 2.72.62"
+                        stroke="#165209"
+                        stroke-width=".5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M14.767 11.388a2.2 2.2 0 01-.46-.75c0-.22-.06-.43-.1-.65a2.39 2.39 0 00-.36-1.08 5.91 5.91 0 01-1.21-2.38c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.007.24.027.48.06.72.18.92.37 1.68.39 1.73l-4.29-3.21a.74.74 0 00-1.11.07.72.72 0 00.26 1l2.25 1.7.68.56-3.6-2.71a.74.74 0 00-1.11.06.73.73 0 00.26 1.06l2.25 1.7 1.35 1-2.93-2.19a.74.74 0 00-1.1.08c-.31.4-.07.81.26 1.06l2.25 1.68 1.12.85-2.29-1.7a.73.73 0 00-1 .04.74.74 0 00.2 1.07l4 3c.334.25.72.421 1.13.5l.58.09c.305.045.6.143.87.29a.83.83 0 00.6.05 3.82 3.82 0 001.77-1.29 3.71 3.71 0 00.7-2 .85.85 0 00-.03-.42h0z"
+                        stroke="#165209"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M14.807 11.338l-.45-.34a6.64 6.64 0 00-.51-2.14 5.85 5.85 0 01-1.21-2.38c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.007.24.027.48.06.72.18.93.37 1.69.39 1.73l-4.29-3.21a.75.75 0 00-1.11.07c-.31.41-.06.81.26 1.06l2.25 1.69.68.56-3.6-2.76a.75.75 0 00-1.11.07c-.31.4-.06.81.26 1.06l2.25 1.69 1.35 1-2.93-2.19a.74.74 0 00-1.1.07.72.72 0 00.26 1.06l2.25 1.69 1.12.85-2.29-1.69a.71.71 0 00-1 .04.73.73 0 00.2 1.11l4 3a4.2 4.2 0 002 .59 6 6 0 00.8.41 3.22 3.22 0 002-1.26 4.81 4.81 0 00.86-2.57z"
+                        fill="#DDF6D1"
+                      />
+                      <path
+                        d="M5.137 10.318c.57.43 4.43 3.43 4.89 3.59.476.17.995.17 1.47 0a1.48 1.48 0 00.47-.31"
+                        opacity=".5"
+                      />
+                      <path
+                        d="M14.767 11.388a2.2 2.2 0 01-.46-.75c0-.22-.06-.43-.1-.65a2.39 2.39 0 00-.36-1.08 5.91 5.91 0 01-1.21-2.38c-.16-.53-.27-.72-.74-.73a.72.72 0 00-.65.8c.007.24.027.48.06.72.18.92.37 1.68.39 1.73l-4.29-3.21a.74.74 0 00-1.11.07.72.72 0 00.26 1l2.25 1.7.68.56-3.6-2.71a.74.74 0 00-1.11.06.73.73 0 00.26 1.06l2.25 1.7 1.35 1-2.93-2.19a.74.74 0 00-1.1.08c-.31.4-.07.81.26 1.06l2.25 1.68 1.12.85-2.29-1.7a.73.73 0 00-1 .04.74.74 0 00.2 1.07l4 3c.334.25.72.421 1.13.5l.58.09c.305.045.6.143.87.29a.83.83 0 00.6.05 3.82 3.82 0 001.77-1.29 3.71 3.71 0 00.7-2 .85.85 0 00-.03-.42h0z"
+                        stroke="#165209"
+                        stroke-width=".5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8.829 2.818l-.73.92M5.494 1.625l.065 1.193M7.538 1.633l-.649 1.56"
+                        stroke="#165209"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </span>
+              <span
+                class=""
+                style="
+                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                    'Helvetica Neue', sans-serif;
+                  font-size: 13px;
+                  color: #474747;
+                "
+                ><svg
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="empathy-consumption-small"
+                  data-supported-dps="16x16"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <rect width="16" height="16" rx="8" />
+                    <circle fill="#DF704D" cx="8" cy="8" r="7" />
+                    <path
+                      d="M7.71 5A2.62 2.62 0 004 5a2.65 2.65 0 000 3.75l4 4 4-4A2.65 2.65 0 0012 5a2.59 2.59 0 00-1.85-.77h0A2.57 2.57 0 008.3 5l-.3.3-.29-.3z"
+                      stroke="#77280C"
+                      fill="#FFF3F0"
+                    />
+                    <path
+                      d="M11.43 5.18a2 2 0 01.53.63c.9 1.67-.6 2.72-1.54 3.67-.6.61-1.22 1.22-1.85 1.8"
+                      opacity=".6"
+                    />
+                    <path
+                      d="M5.79 4.81a2.16 2.16 0 00-.79.11 1.77 1.77 0 00-1 .82A2.54 2.54 0 003.77 7a.28.28 0 000 .09"
+                      opacity=".4"
+                    />
+                    <path
+                      d="M7.71 5A2.6 2.6 0 004 5a2.65 2.65 0 000 3.7l4 4 4-4A2.65 2.65 0 0012 5a2.6 2.6 0 00-1.85-.78h0A2.58 2.58 0 008.3 5l-.3.25L7.71 5z"
+                      stroke="#77280C"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+                50</span
+              >
+              <div class="card-footer bg-white mt-1">
+                <span>
+                  <button class="ref btn btn-light">
+                    <i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem"
+                      ><span class="ml-2 mediatext">Like</span></i
+                    >
+                  </button>
+                </span>
+                <span>
+                  <button class="ref btn btn-light">
+                    <i class="far fa-comment fa-md" style="font-size: 1.2rem"
+                      ><span class="ml-2 mediatext">Comment</span></i
+                    >
+                  </button>
+                </span>
+                <span>
+                  <button class="ref btn btn-light">
+                    <i class="fas fa-share fa-md" style="font-size: 1.2rem"
+                      ><span class="ml-2 mediatext">Share</span></i
+                    >
+                  </button>
+                </span>
+                <span>
+                  <button class="ref btn btn-light">
+                    <i
+                      class="fas fa-paper-plane fa-md"
+                      style="font-size: 1.2rem"
+                      ><span class="ml-2 mediatext">Send</span></i
+                    >
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- sağ panel -->
+        <div class="col-3">
+          <div class="card" style="width: 19rem">
+            <div class="card-header bg-white border-0">
+              <span>Add to your feed</span>
+              <span><i class="fas fa-info-circle float-right"></i></span>
+            </div>
+            <div class="card-title">
+              <div class="ml-3">
+                <img
+                  src="https://picsum.photos/150/150"
+                  style="width: 50px; height: 50px; border-radius: 50%"
+                />
+                <span class="header ml-1" style="font-size: 14px">Lorem</span>
+                <span class="float-right mr-3 mt-2"
+                  ><button
+                    class="btn btn-outline-info"
+                    style="border-radius: 50px; line-height: 1"
+                  >
+                    <strong>+ Follow</strong>
+                  </button></span
+                >
+              </div>
+            </div>
+            <div class="card-title">
+              <div class="ml-3">
+                <img
+                  src="https://picsum.photos/150/150?1"
+                  style="width: 50px; height: 50px; border-radius: 50%"
+                />
+                <span class="header ml-1" style="font-size: 14px">ipsum</span>
+                <span class="float-right mr-3 mt-2"
+                  ><button
+                    class="btn btn-outline-info"
+                    style="border-radius: 50px; line-height: 1"
+                  >
+                    <strong>+ Follow</strong>
+                  </button></span
+                >
+              </div>
+            </div>
+            <div class="card-title">
+              <div class="ml-3">
+                <img
+                  src="https://picsum.photos/150/150?2"
+                  style="width: 50px; height: 50px; border-radius: 50%"
+                />
+                <span class="header ml-1" style="font-size: 14px">dolor.</span>
+                <span class="float-right mr-3 mt-2"
+                  ><button
+                    class="btn btn-outline-info"
+                    style="border-radius: 50px; line-height: 1"
+                  >
+                    <strong>+ Follow</strong>
+                  </button></span
+                >
+              </div>
+            </div>
+            <div
+              class="card-footer bg-white border-0"
+              style="font-size: 14px; color: #0a66c2"
+            >
+              <strong>View all recommendations</strong>
+            </div>
+          </div>
+          <div class="card mt-2" style="width: 19rem">
+            <div class="card-header bg-white border-0">
+              <span>Today's most viewed courses</span
+              ><span><i class="fas fa-info-circle float-right"></i></span>
+            </div>
+            <div class="card-title">
+              <ol>
+                <li>
+                  Lorem ipsum dolor sit.
+                  <div
+                    style="
+                      font-weight: lighter;
+                      font-size: 13px;
+                      color: #5f5f5f;
+                    "
+                  >
+                    Amet consectetur | adipisicing elit ...
+                  </div>
+                </li>
+                <li class="mt-2">
+                  Blanditiis incidunt
+                  <div
+                    style="
+                      font-weight: lighter;
+                      font-size: 13px;
+                      color: #5f5f5f;
+                    "
+                  >
+                    Tempore asperiores
+                  </div>
+                </li>
+                <li class="mt-2">
+                  Mollitia non
+                  <div
+                    style="
+                      font-weight: lighter;
+                      font-size: 13px;
+                      color: #5f5f5f;
+                    "
+                  >
+                    Lorem ipsum
+                  </div>
+                </li>
+              </ol>
+            </div>
+            <div
+              class="card-footer bg-white border-0"
+              style="color: #0a66c2; font-size: 15px; margin-top: -25px"
+            >
+              <strong>Show more on LinkedIn Learning</strong>
+            </div>
+          </div>
+          <div class="text-center mt-3 ml-3 sticky-top" style="top: 4rem">
+            <div>
+              <a href="https://about.linkedin.com/" class="link mr-3">About</a>
+              <a href="https://www.linkedin.com/accessibility" class="link mr-3"
+                >Accessibility</a
+              >
+              <a href="https://www.linkedin.com/help/linkedin" class="link"
+                >Help Center</a
+              >
+            </div>
+            <div>
+              <a href="" class="link mr-3">Privacy & Terms</a>
+              <a
+                href="https://www.linkedin.com/help/linkedin/answer/62931"
+                class="link"
+                >Ad Choices</a
+              >
+            </div>
+            <div>
+              <a href="https://www.linkedin.com/ad/start" class="link"
+                >Advertising</a
+              >
+            </div>
+            <div class="text-center" style="margin-top: 10px">
+              <img
+                src="https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg"
+                width="90px"
+                height="20px"
+              /><span style="font-size: 12px; margin-left: -15px"
+                >Linkedin Corporation © 2021</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- mesajlaşma -->
+    <nav
+      class="navbar bg-white navbar-expand-xl navbar-light bg-dark position-sticky fixed-bottom border"
+      style="
+        height: 50px;
+        position: -webkit-sticky;
+        border-radius: 5px;
+        margin-left: auto;
+        right: 15px;
+        width: 300px;
+      "
+    >
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://picsum.photos/100/100?5"
+          style="width: 30px; height: 30px; border-radius: 50%"
+        />
+      </a>
+      <span style="font-size: 14px">
+        <strong>Messaging</strong>
+      </span>
+      <span class="offset-3">
+        <img src="./assets/edit-regular.svg" width="15px" height="15px" />
+      </span>
+      <span><i class="fas fa-ellipsis-h fa-sm ml-3"></i></span>
+      <span><i class="fas fa-chevron-up fa-sm ml-3"></i></span>
+    </nav>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/patika/front-end-web/2-mid/react/homework-2/build/static/css/main.42b16ac4.css",
+    "main.js": "/patika/front-end-web/2-mid/react/homework-2/build/static/js/main.ee74488d.js",
+    "static/js/787.8945084c.chunk.js": "/patika/front-end-web/2-mid/react/homework-2/build/static/js/787.8945084c.chunk.js",
+    "index.html": "/patika/front-end-web/2-mid/react/homework-2/build/index.html",
+    "main.42b16ac4.css.map": "/patika/front-end-web/2-mid/react/homework-2/build/static/css/main.42b16ac4.css.map",
+    "main.ee74488d.js.map": "/patika/front-end-web/2-mid/react/homework-2/build/static/js/main.ee74488d.js.map",
+    "787.8945084c.chunk.js.map": "/patika/front-end-web/2-mid/react/homework-2/build/static/js/787.8945084c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42b16ac4.css",
+    "static/js/main.ee74488d.js"
+  ]
+}

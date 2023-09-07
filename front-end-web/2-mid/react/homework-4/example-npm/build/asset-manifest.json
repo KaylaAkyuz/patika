@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/patika/front-end-web/2-mid/react/homework-4/example-npm/build/static/css/main.0f1eb035.css",
+    "main.js": "/patika/front-end-web/2-mid/react/homework-4/example-npm/build/static/js/main.174ee4a4.js",
+    "static/media/sakura-animation-720p.gif": "/patika/front-end-web/2-mid/react/homework-4/example-npm/build/static/media/sakura-animation-720p.a4b2211ecbb6b00943ad.gif",
+    "static/media/sakura-animation-480p.gif": "/patika/front-end-web/2-mid/react/homework-4/example-npm/build/static/media/sakura-animation-480p.1dbb71276262328253fc.gif",
+    "static/media/sakura-animation-360p.gif": "/patika/front-end-web/2-mid/react/homework-4/example-npm/build/static/media/sakura-animation-360p.9497bd6f09694cc9f1f8.gif",
+    "static/media/sakura-image.jpg": "/patika/front-end-web/2-mid/react/homework-4/example-npm/build/static/media/sakura-image.a4695030310071114cd8.jpg",
+    "index.html": "/patika/front-end-web/2-mid/react/homework-4/example-npm/build/index.html",
+    "main.0f1eb035.css.map": "/patika/front-end-web/2-mid/react/homework-4/example-npm/build/static/css/main.0f1eb035.css.map",
+    "main.174ee4a4.js.map": "/patika/front-end-web/2-mid/react/homework-4/example-npm/build/static/js/main.174ee4a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f1eb035.css",
+    "static/js/main.174ee4a4.js"
+  ]
+}

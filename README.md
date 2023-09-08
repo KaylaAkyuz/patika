@@ -81,6 +81,46 @@ Click on the images to explore the live views on GitHub Pages
     </a>
 </div>
 
+### Front End Web - Mid
+<hr/>
+
+#### React
+
+<div align="center">
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/2-mid/react/homework-1">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266740706-9a242704-4da8-4f11-910a-bc653c0e8712.jpg" alt="axios" style="width:15%; pointer-events: none;">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/react/homework-2/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266739936-665a42d9-80e5-4165-8bfd-d632040c5349.jpg" alt="tod-" style="width:20%;">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/react/homework-3/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266739979-f47f36e0-3b49-4721-b1a4-ba0b0763da63.jpg" alt="weather" style="width:20%;">
+    </a>
+    <a href="https://www.npmjs.com/package/sakura-button">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266740072-5a46818b-f6ff-496e-98b1-ddde0e002c01.jpg" alt="npm" style="width:20%;">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/react/homework-5/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266740012-ffda375d-8a25-4aa3-b49f-ad9f1957fb42.jpg" alt="tests" style="width:15%;">
+    </a>
+</div>
+<div align="center">
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/2-mid/react/homework-1">
+      <span>Axios</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/react/homework-2/build/">
+      <span>To-Do</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/react/homework-3/build/">
+      <span>Weather</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <a href="https://www.npmjs.com/package/sakura-button">
+      <span>NPM</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/react/homework-5/">
+      <span>Tests</span>
+    </a>
+</div>
+
 ## Author
 
 Kayla Akyüz - kaylakyuz@gmail.com

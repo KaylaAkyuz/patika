@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  color: #EFE1D1;
+  padding-top: 30px;
+  background-color: #35155D;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 20px;
+}
+
+.profile-photo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.balance {
+  position: sticky;
+  top: 0;
+  background-image: linear-gradient(to bottom right, #512B81, #4477CE);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.balance, .purchased-items {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}

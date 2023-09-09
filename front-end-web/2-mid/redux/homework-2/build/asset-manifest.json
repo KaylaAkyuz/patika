@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/patika/front-end-web/2-mid/redux/homework-2/build/static/css/main.2c00b357.css",
+    "main.js": "/patika/front-end-web/2-mid/redux/homework-2/build/static/js/main.468caf3c.js",
+    "index.html": "/patika/front-end-web/2-mid/redux/homework-2/build/index.html",
+    "main.2c00b357.css.map": "/patika/front-end-web/2-mid/redux/homework-2/build/static/css/main.2c00b357.css.map",
+    "main.468caf3c.js.map": "/patika/front-end-web/2-mid/redux/homework-2/build/static/js/main.468caf3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c00b357.css",
+    "static/js/main.468caf3c.js"
+  ]
+}

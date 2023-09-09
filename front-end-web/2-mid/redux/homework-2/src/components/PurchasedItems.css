@@ -1,0 +1,66 @@
+.purchased-items {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.purchased-items h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.receipt {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.receipt ul {
+  list-style: none;
+  padding: 0;
+}
+
+.receipt-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.receipt-line {
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.receipt-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.receipt-item-details {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.receipt-item-title {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.receipt-item-quantity {
+  display: inline-block;
+  font-size: 14px;
+  color: #888;
+  margin-top: 5px;
+  margin-right: 40px;
+}
+
+.receipt-item-total {
+  font-weight: bold;
+  color: #007bff;
+}

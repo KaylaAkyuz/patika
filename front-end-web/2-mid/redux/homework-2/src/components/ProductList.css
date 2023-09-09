@@ -1,0 +1,105 @@
+.product-list {
+  padding: 20px;
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #4477CE;
+  border: 1px solid #EFE1D1;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: 120px;
+}
+
+.product-details {
+  margin-top: 10px;
+}
+
+.product-details h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.product-details p {
+  margin: 5px 0;
+}
+
+.product-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.quantity-display{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 10px;
+  width: 30%;
+  padding: 0 20px;
+}
+
+.buy-button, .sell-button {
+  padding: 10px 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: 400;
+  cursor: pointer;
+  margin: 0;
+  width: 30%;
+}
+
+.buy-button {
+  background: linear-gradient(180deg,#2ecc71,#1abc9c);
+}
+
+.sell-button {
+  background: linear-gradient(180deg,#f53b82,#f53b57);
+}
+
+.buy-button:hover {
+  background: linear-gradient(rgb(57, 158, 95), rgb(43, 146, 123));
+}
+
+.sell-button:hover {
+  background: linear-gradient(rgb(155, 26, 74), rgb(155, 26, 43));
+}
+
+.buy-button:disabled, .sell-button:disabled,
+.buy-button[disabled], .sell-button[disabled] {
+  background: linear-gradient(180deg,#352F44,#5C5470);
+  cursor: not-allowed;
+}
+
+.quantity-control {
+  width: 100%;
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  width: 40px;
+  text-align: center;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}

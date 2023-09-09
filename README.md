@@ -35,7 +35,7 @@ Click on the images to explore the live views on GitHub Pages
 
 <div align="center">
     <a href="https://kaylaa0.github.io/patika/front-end-web/1-beginner/css/homework-1/">
-      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/253803538-44dd0928-a29d-496b-87ce-7165b7978ef2.jpg" alt="sakura" style="width:25%; pointer-events: none;">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/253803538-44dd0928-a29d-496b-87ce-7165b7978ef2.jpg" alt="sakura" style="width:25%;">
     </a>
     <a href="https://kaylaa0.github.io/patika/front-end-web/1-beginner/css/homework-2/">
       <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/253803540-e301c2d8-716a-4469-85c4-0676fb2dce07.jpg" alt="google19" style="width:25%;">
@@ -60,7 +60,7 @@ Click on the images to explore the live views on GitHub Pages
 
 <div align="center">
     <a href="https://kaylaa0.github.io/patika/front-end-web/1-beginner/bootstrap/homework-1/">
-      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/253803542-2f0ba480-a30f-4ff1-ab61-4509d7681a75.jpg" alt="sakura" style="width:25%; pointer-events: none;">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/253803542-2f0ba480-a30f-4ff1-ab61-4509d7681a75.jpg" alt="sakura" style="width:25%;">
     </a>
     <a href="https://kaylaa0.github.io/patika/front-end-web/1-beginner/bootstrap/homework-2/">
       <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/253803543-d5f9c20f-e594-4a53-addb-ba73bd4ffc83.jpg" alt="instagram" style="width:25%;">
@@ -88,7 +88,7 @@ Click on the images to explore the live views on GitHub Pages
 
 <div align="center">
     <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/2-mid/react/homework-1">
-      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266740706-9a242704-4da8-4f11-910a-bc653c0e8712.jpg" alt="axios" style="width:15%; pointer-events: none;">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266740706-9a242704-4da8-4f11-910a-bc653c0e8712.jpg" alt="axios" style="width:15%;">
     </a>
     <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/react/homework-2/build/">
       <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266739936-665a42d9-80e5-4165-8bfd-d632040c5349.jpg" alt="tod-" style="width:20%;">
@@ -118,6 +118,31 @@ Click on the images to explore the live views on GitHub Pages
     </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
     <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/react/homework-5/">
       <span>Tests</span>
+    </a>
+</div>
+
+#### Redux
+
+<div align="center">
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/homework-1/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266784894-80444a7f-ed82-4ad8-ac68-863c93d61ca4.jpg" alt="notesapp" style="width:25%;">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/homework-2/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266793401-4c35f719-2d08-476d-a372-77c63c436305.jpg" alt="spend" style="width:25%;">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/homework-3/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266803655-68883c2f-bf07-46b8-8850-e962a3b98b57.jpg" alt="pokememory" alt="linkedin" style="width:25%;">
+    </a>
+</div>
+<div align="center">
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/homework-1/build/">
+      <span>NotesApp</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/homework-2/build/">
+      <span>Spend</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/homework-3/build/">
+      <span>Pokémemory</span>
     </a>
 </div>
 

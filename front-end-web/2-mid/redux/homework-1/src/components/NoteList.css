@@ -1,0 +1,19 @@
+
+.note-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
+}
+
+.note {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  color: black;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  min-width: 200px; 
+  max-width: 300px; 
+  word-wrap: break-word; 
+}

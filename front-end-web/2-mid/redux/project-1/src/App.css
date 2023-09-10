@@ -1,0 +1,100 @@
+body {
+  font-family: 'Arial', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffecf0; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+  max-width: 800px; 
+  width: 100%; 
+}
+
+.paragraph-generator {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  flex: 1;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="number"], select {
+  flex: 2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+button {
+  flex: 0; 
+  width: auto;
+  padding: 10px;
+  margin-left: auto;
+  background-color: #ff6b81;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #ff4654; 
+}
+
+.paragraph-display {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.generated-paragraph {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}

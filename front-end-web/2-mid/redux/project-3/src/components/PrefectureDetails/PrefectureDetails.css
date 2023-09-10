@@ -1,0 +1,44 @@
+.prefecture-details {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.prefecture-details h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #ff6b81;
+}
+
+.prefecture-details p {
+  font-size: 16px;
+}
+
+.recharts-responsive-container {
+  max-width: 100%;
+}
+
+.recharts-surface {
+  background-color: transparent;
+}
+
+.recharts-x-axis,
+.recharts-y-axis {
+  display: none;
+}
+
+.recharts-cartesian-grid-horizontal line {
+  stroke: #ccc;
+  stroke-dasharray: 2;
+}
+
+/* Bar colors */
+.recharts-bar-rectangle {
+  transition: fill 0.3s ease-in-out;
+}
+
+.recharts-bar-rectangle:hover {
+  fill-opacity: 0.7;
+}

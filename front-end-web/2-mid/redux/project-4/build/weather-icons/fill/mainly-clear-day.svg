@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="a" x1="16.5" x2="21.5" y1="19.67" y2="28.33" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbbf24" />
+      <stop offset=".45" stop-color="#fbbf24" />
+      <stop offset="1" stop-color="#f59e0b" />
+    </linearGradient>
+    <linearGradient id="b" x1="22.56" x2="39.2" y1="21.96" y2="50.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f3f7fe" />
+      <stop offset=".45" stop-color="#f3f7fe" />
+      <stop offset="1" stop-color="#deeafb" />
+    </linearGradient>
+  </defs>
+  <circle cx="19" cy="24" r="5" fill="url(#a)" stroke="#f8af18" stroke-miterlimit="10"
+    stroke-width=".5" />
+  <path fill="none" stroke="#fbbf24" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+    d="M19 15.67V12.5m0 23v-3.17m5.89-14.22l2.24-2.24M10.87 32.13l2.24-2.24m0-11.78l-2.24-2.24m16.26 16.26l-2.24-2.24M7.5 24h3.17m19.83 0h-3.17">
+    <animateTransform attributeName="transform" dur="45s" repeatCount="indefinite" type="rotate"
+      values="0 19 24; 360 19 24" />
+  </path>
+  <path fill="url(#b)" stroke="#e6effc" stroke-miterlimit="10" stroke-width=".5"
+    d="M 39.346 37.741 L 39.164 37.741 C 40.247 33.518 36.09 29.77 31.681 30.994 C 30.271 31.386 29.064 32.255 28.29 33.436 C 25.652 31.957 22.311 33.733 22.276 36.632 C 22.276 36.643 22.275 36.654 22.275 36.665 C 22.277 36.87 22.296 37.075 22.332 37.278 C 19.108 37.875 17.777 41.549 19.936 43.891 C 20.741 44.764 21.904 45.268 23.129 45.274 C 23.224 45.28 23.319 45.28 23.413 45.274 L 39.346 45.274 C 42.412 45.274 44.328 42.135 42.795 39.624 C 42.084 38.459 40.769 37.741 39.346 37.741 Z"
+    style="" transform="matrix(1, 0, 0, 1, -8.881784197001252e-16, 0)" />
+</svg>

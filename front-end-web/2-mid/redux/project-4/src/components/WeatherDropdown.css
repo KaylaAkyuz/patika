@@ -1,0 +1,16 @@
+.weather-dropdown {
+  margin: 20px 0;
+  text-align: center;
+
+  scrollbar-width: thin; 
+  scrollbar-color: #ff6b81 transparent; 
+}
+
+label {
+  font-size: 18px;
+}
+
+.select{
+  display: inline-block;
+  text-align: start;
+}

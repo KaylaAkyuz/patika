@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/patika/front-end-web/2-mid/redux/project-5/build/static/css/main.d081fba1.css",
+    "main.js": "/patika/front-end-web/2-mid/redux/project-5/build/static/js/main.a8e2a015.js",
+    "index.html": "/patika/front-end-web/2-mid/redux/project-5/build/index.html",
+    "main.d081fba1.css.map": "/patika/front-end-web/2-mid/redux/project-5/build/static/css/main.d081fba1.css.map",
+    "main.a8e2a015.js.map": "/patika/front-end-web/2-mid/redux/project-5/build/static/js/main.a8e2a015.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d081fba1.css",
+    "static/js/main.a8e2a015.js"
+  ]
+}

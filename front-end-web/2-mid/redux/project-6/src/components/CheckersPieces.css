@@ -1,0 +1,31 @@
+.checkers-pieces {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #ffecf0;
+  padding: 10px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pieces-column {
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 20px;
+}
+
+.piece-cell {
+  height: 20px;
+  width: 20px;
+  margin: 2px;
+}
+
+.piece-cell::before{
+  font-size: 11px;
+}

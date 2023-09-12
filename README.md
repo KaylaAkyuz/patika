@@ -121,7 +121,7 @@ Click on the images to explore the live views on GitHub Pages
     </a>
 </div>
 
-#### Redux
+#### Redux - Homeworks
 
 <div align="center">
     <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/homework-1/build/">
@@ -131,7 +131,7 @@ Click on the images to explore the live views on GitHub Pages
       <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266793401-4c35f719-2d08-476d-a372-77c63c436305.jpg" alt="spend" style="width:25%;">
     </a>
     <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/homework-3/build/">
-      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266803655-68883c2f-bf07-46b8-8850-e962a3b98b57.jpg" alt="pokememory" alt="linkedin" style="width:25%;">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266803655-68883c2f-bf07-46b8-8850-e962a3b98b57.jpg" alt="pokememory" style="width:25%;">
     </a>
 </div>
 <div align="center">
@@ -143,6 +143,53 @@ Click on the images to explore the live views on GitHub Pages
     </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
     <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/homework-3/build/">
       <span>Pokémemory</span>
+    </a>
+</div>
+
+#### Redux - Projects
+
+<div align="center">
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/project-1/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266845719-305b5fda-86bc-47c5-a712-842919578bd9.jpg" alt="baconipsum" width="25%">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/project-2/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266852169-3cf266df-5e8c-49ef-bc37-b9fbbb85f230.jpg" alt="markdown" style="width:25%;">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/project-3/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266868807-71d3827b-f710-4295-8e67-a69ba591825a.jpg" alt="covid19"style="width:25%;">
+    </a>
+</div>
+<div align="center">
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/project-1/build/">
+      <span>Baconipsum</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/project-2/build/">
+      <span>Markdown</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/project-3/build/">
+      <span>Covid-19</span>
+    </a>
+</div>
+<div align="center">
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/project-4/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266873603-525b0aa1-ceba-4ffd-91e0-24c12a8e0ef1.jpg" alt="weather" style="width:25%;">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/project-5/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266891140-fb7e6f3e-c8d7-4310-866e-5925ff9d1971.jpg" alt="speedtype" style="width:25%;">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/project-6/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/267186843-dec23564-dc95-4528-b9ac-2d323db63e71.jpg" alt="checkers" alt="linkedin" style="width:25%;">
+    </a>
+</div>
+<div align="center">
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/project-4/build/">
+      <span>Weather</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/project-5/build/">
+      <span>Speedtype</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/project-6/build/">
+      <span>Checkers</span>
     </a>
 </div>
 

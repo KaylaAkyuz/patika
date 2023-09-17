@@ -1,0 +1,11 @@
+.skeleton{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  animation: skeleton 1s infinite alternate;
+}
+
+.list_container{
+  width: 100%;
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/patika/front-end-web/3-advanced/graphql/project-2/build/static/css/main.64e7b8dc.css",
+    "main.js": "/patika/front-end-web/3-advanced/graphql/project-2/build/static/js/main.a94bc0da.js",
+    "index.html": "/patika/front-end-web/3-advanced/graphql/project-2/build/index.html",
+    "main.64e7b8dc.css.map": "/patika/front-end-web/3-advanced/graphql/project-2/build/static/css/main.64e7b8dc.css.map",
+    "main.a94bc0da.js.map": "/patika/front-end-web/3-advanced/graphql/project-2/build/static/js/main.a94bc0da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64e7b8dc.css",
+    "static/js/main.a94bc0da.js"
+  ]
+}

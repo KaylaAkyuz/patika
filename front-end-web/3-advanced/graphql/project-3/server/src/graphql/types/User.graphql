@@ -1,0 +1,17 @@
+type User {
+  id: Int!
+  messages: [Message!]!
+}
+
+type Query {
+  users: [User!]!
+  user(id: Int!): User
+}
+
+type Mutation {
+  addUser: User!
+}
+
+type Subscription {
+  userCreated: User!
+}

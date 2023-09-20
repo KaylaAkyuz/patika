@@ -1,0 +1,20 @@
+type Question {
+  id: ID!
+  text: String!
+  options: [Option!]
+}
+
+type Query {
+  questions: [Question!]!
+  question(id: ID!): Question
+}
+
+type Mutation {
+  createQuestion(text: String!, id: ID!): Question
+  vote(questionId: ID!, optionId: ID!): Question
+}
+
+type Subscription {
+  newQuestion: Question
+  updatedQuestion(id: ID!): Question
+}

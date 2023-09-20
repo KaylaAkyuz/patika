@@ -1,0 +1,19 @@
+type Option {
+  id: ID!
+  text: String!
+  votes: Int!
+  poll_id: ID!
+}
+
+type Query {
+  options: [Option]
+  option(id: ID!): Option
+}
+
+type Mutation {
+  createOption(text: String!, poll_id: ID!): Option
+}
+
+type Subscription {
+  newOption: Option
+}

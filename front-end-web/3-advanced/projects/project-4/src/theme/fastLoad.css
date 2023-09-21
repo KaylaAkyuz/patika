@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  background-color: #0b0317; 
+  font-family: "Orbitron", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input {
+  caret-color: #94ffc7;
+}
+
+.search-icon-custom-color{
+  color: #ff6961AA;
+}
+
+.search-icon-custom-color:hover{
+  color: #ff6961DD;
+}

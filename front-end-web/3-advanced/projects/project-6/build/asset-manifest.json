@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/patika/front-end-web/3-advanced/projects/project-6/build/static/css/main.690c3ab8.css",
+    "main.js": "/patika/front-end-web/3-advanced/projects/project-6/build/static/js/main.9b682e38.js",
+    "index.html": "/patika/front-end-web/3-advanced/projects/project-6/build/index.html",
+    "main.690c3ab8.css.map": "/patika/front-end-web/3-advanced/projects/project-6/build/static/css/main.690c3ab8.css.map",
+    "main.9b682e38.js.map": "/patika/front-end-web/3-advanced/projects/project-6/build/static/js/main.9b682e38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.690c3ab8.css",
+    "static/js/main.9b682e38.js"
+  ]
+}

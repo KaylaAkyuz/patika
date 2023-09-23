@@ -1,0 +1,32 @@
+::-webkit-scrollbar {
+  width: 8px; 
+  background-color: #0b0316;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #370e71;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4d149f; 
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #621acc; 
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0316; 
+  border-radius: 8px; 
+}
+
+::-webkit-scrollbar-corner {
+  background: #0b0316; 
+}
+
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color:  #370e71 #0b0316;
+}

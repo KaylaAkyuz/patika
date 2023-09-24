@@ -156,7 +156,7 @@ Click on the images to explore the live views on GitHub Pages
       <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266852169-3cf266df-5e8c-49ef-bc37-b9fbbb85f230.jpg" alt="markdown" style="width:25%;">
     </a>
     <a href="https://kaylaa0.github.io/patika/front-end-web/2-mid/redux/project-3/build/">
-      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266868807-71d3827b-f710-4295-8e67-a69ba591825a.jpg" alt="covid19"style="width:25%;">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/266868807-71d3827b-f710-4295-8e67-a69ba591825a.jpg" alt="covid19" style="width:25%;">
     </a>
 </div>
 <div align="center">
@@ -192,6 +192,163 @@ Click on the images to explore the live views on GitHub Pages
       <span>Checkers</span>
     </a>
 </div>
+
+### Front End Web - Advanced
+<hr/>
+
+#### GraphQL - Homeworks
+
+<div align="center">
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/homework-1">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/270144606-d55bcb61-799e-4d60-b401-d241d88a5fb7.jpg" alt="schema" style="width:25%;">
+    </a>
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/homework-2">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/270144634-2ba3306c-586c-4a03-9933-e12b9ccd9b7c.jpg" alt="mutations" style="width:25%;">
+    </a>
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/homework-3">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/270144648-eb2fd7f2-ebc8-4145-ba45-937d3b7a4069.jpg" alt="yoga" style="width:25%;">
+    </a>
+</div>
+<div align="center">
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/homework-1">
+      <span>Schema</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/homework-2">
+      <span>Mutations</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/homework-3">
+      <span>Yoga</span>
+    </a>
+</div>
+<div align="center">
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/homework-4">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/268476628-0faba617-46a8-48ef-9195-ea9af4fa9726.jpg" alt="hologala-1" style="width:25%;">
+    </a>
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/homework-5">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/268479678-44828e5f-a96b-42ba-af37-5e6c8c4266ee.jpg" alt="hologala-2" style="width:25%;">
+    </a>
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/homework-6">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/268520867-97b4002b-2357-4309-bcbd-c799fc5b47fc.jpg" alt="hologala-3" style="width:25%;">
+    </a>
+</div>
+<div align="center">
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/homework-4">
+      <span>Hologala-1</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/homework-5">
+      <span>Hologala-2</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/homework-6">
+      <span>Hologala-3</span>
+    </a>
+</div>
+
+#### GraphQL - Projects
+
+<div align="center">
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/project-1">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/270145108-98fb6d51-03ba-4d71-844e-e5c6470d54c9.jpg" alt="countries" style="width:20%;">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/graphql/project-2/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/268823174-60474d37-ae47-4b35-bd5d-766978524b70.jpg" alt="rickandmorty" width="20%">
+    </a>
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/project-3">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/268844878-d7cb94be-cd6c-4843-88c8-e1da716a4629.jpg" alt="messages" style="width:20%;">
+    </a>
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/project-4">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/269161772-af06851c-0db2-4b76-adce-27429146b118.png" alt="votes" style="width:20%;">
+    </a>
+</div>
+<div align="center">
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/project-1">
+      <span>Countries</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/graphql/project-2/build/">
+      <span>Rick and Morty</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&ensp;
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/project-3">
+      <span>Messages</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+    <a href="https://github.com/kaylaa0/patika/tree/main/front-end-web/3-advanced/graphql/project-4">
+      <span>Votes</span>
+    </a>
+</div>
+
+#### Projects
+
+<div align="center">
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-1/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/269398821-50a607e6-7805-439e-881a-2ef2e24fae6a.jpg" alt="bmi" style="width:25%;">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-2/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/269477156-7c09e8fa-61d2-45da-9fed-1c090b63631e.jpg" alt="cyberbazaar" style="width:25%;">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-3/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/269703808-a87096bf-3ae2-4987-a1d7-24a294d2a017.jpg" alt="notes" style="width:25%;">
+    </a>
+</div>
+<div align="center">
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-1/build/">
+      <span>BMI Calculator</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-2/build/">
+      <span>Cyberbazaar</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-3/build/">
+      <span>NeonNotes</span>
+    </a>
+</div>
+<div align="center">
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-4/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/269777866-43547eb8-7cca-4316-a44a-a62b2eab6a35.jpg" alt="portfolio" style="width:25%;">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-5/client/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/269878188-f2664164-a238-4232-91b7-742f73fd16d7.jpg" alt="luminova" style="width:25%;">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-6/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/270071617-20891203-27d6-4c1b-9e95-149c8c42465c.jpg" alt="cybercoin" style="width:25%;">
+    </a>
+</div>
+<div align="center">
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-4/build/">
+      <span>Portfolio</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-5/client/build/">
+      <span>Luminova</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-6/build/">
+      <span>Cybercoin</span>
+    </a>
+</div>
+<div align="center">
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-7/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/270075756-53435312-7087-40e8-839e-b4fda6f9b6e1.jpg" alt="pokememory" style="width:20%;">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-8/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/270082069-bbe06fe0-bc3e-45c2-bf9f-547a28e203ac.jpg" alt="openlibrary" style="width:20%;">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-9/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/270089794-5c8e4f3d-f642-477a-a955-5cce3b5a477a.jpg" alt="じゃんけん" style="width:20%;">
+    </a>
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-10/build/">
+      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/107824429/270144770-10953c80-9f2e-475a-8105-b9152b3d22c9.jpg" alt="formbuilder" style="width:20%;">
+    </a>
+</div>
+<div align="center">
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-7/build/">
+      <span>Pokémemory</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&ensp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-8/build/">
+      <span>OpenLibrary</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&emsp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-9/build/">
+      <span>じゃんけん</span>
+    </a>&emsp;&emsp;&emsp;&emsp;&ensp;
+    <a href="https://kaylaa0.github.io/patika/front-end-web/3-advanced/projects/project-10/build/">
+      <span>Form Builder</span>
+    </a>
+</div>
+
 
 ## Author
 
